@@ -1,0 +1,119 @@
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    color: rgb(22, 19, 63);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 0;
+  }
+header a{
+    display:inline;
+    justify-content:space-between;
+    font-size: 15px;
+    text-decoration: none;
+    bottom: 30px;
+    margin: auto;
+}
+header a:hover{
+    color: greenyellow;
+    text-decoration: none;
+}
+hr{
+    height: 2px;
+    background-color: rgb(15, 20, 92);
+    filter: drop-shadow(2px 2px 2px);
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    }
+.logo1{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.personal{
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    padding-top: 100x;
+    filter: drop-shadow(8px 8px 4px);
+}
+nav{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 2px 5px black;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.titulo{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(18, 18, 87);
+}
+hr{
+    text-align:left;
+    margin: 0;
+    }
+article{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 25px;
+}
+.boton{
+    color: rgb(225, 235, 234);
+    font-style:italic;
+    background-color: rgb(46, 25, 163);
+    border-radius: 25px;
+    font-family: 'Nunito', sans-serif;
+    box-shadow: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-decoration: none;
+}
+.boton:hover{
+    background-color: transparent;
+    border: 2px solid rgb(46, 25, 163);
+    color: rgb(225, 235, 234);
+}
+.hablemos{
+    display: block;
+    max-width: auto;
+    color: red;
+    background-color: rgb(179, 200, 245);
+    border-radius: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.iconos{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+    align-items:flex-start;
+    max-width: auto;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+footer{
+    display: block;
+    max-width: auto;
+    background-color: rgb(100, 100, 228);
+    color:blanchedalmond;
+    font-size: 15px;
+    font-weight: 800px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
