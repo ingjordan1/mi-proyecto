@@ -1,0 +1,137 @@
+html{
+    box-sizing: border-box;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+header{
+    display: inline;
+    justify-content:space-between;
+    color: rgb(22, 19, 63);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 auto;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+li{
+    display: flex;
+    list-style: none;
+    line-height: 90px;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    margin-right: 40px;
+}
+header a:hover{
+    color: red;
+    text-decoration: none;
+}
+hr{
+    height: 2px;
+    background-color: rgb(119, 124, 197);
+    filter: drop-shadow(2px 2px 2px);
+    margin: 0;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    max-width: 992px;
+    }
+.logo1{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+.personal{
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    filter: drop-shadow(8px 8px 4px);
+    margin-top: 15px;
+}
+nav{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 2px 5px black;
+    /*margin-bottom: 25px;*/
+}
+.titulo{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(18, 18, 87);
+}
+article{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    text-align: center;
+    max-width: 100%;
+    margin: 15px 15px;
+    padding-bottom: 25px;
+}
+.boton{
+    color: rgb(225, 235, 234);
+    font-style:italic;
+    background-color: rgb(46, 25, 163);
+    border-radius: 25px;
+    font-family: 'Nunito', sans-serif;
+    box-shadow: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-decoration: none;
+}
+.boton:hover{
+    background-color: transparent;
+    border: 2px solid rgb(46, 25, 163);
+    color: rgb(207, 6, 6);
+}
+.hablemos{
+    display: block;
+    max-width: auto;
+    color: rgb(18, 18, 87);
+    background-color: rgb(179, 200, 245);
+    border-radius: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.comenta{
+    margin: 25px 25px;
+}
+.iconos{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+    align-items:flex-start;
+    max-width: auto;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.icono{
+    height: 60px; 
+    width: 60px;
+}
+footer{
+    display: block;
+    max-width: auto;
+    background-color: rgb(100, 100, 228);
+    color:blanchedalmond;
+    font-size: 20px;
+    font-weight: 800px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+@media screen and (max-width: 915px){
+    html{
+        width:100%;
+    }
+}
